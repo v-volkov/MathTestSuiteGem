@@ -1,6 +1,4 @@
 class Tester
-  require_relative "math_tasks"
-
   def self.assert(expected:, actual:)
     if expected == actual
       puts 'PASSED'
